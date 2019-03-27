@@ -25,11 +25,15 @@ async def get_bytes(url):
 app = Starlette()
 
 path = Path(".")
+#unfortunately this method didn't work for me 
 '''
 classes=['american_football','soccer']
 np.random.seed(22)
 data2 = ImageDataBunch.single_from_classes(path, classes, ds_tfms=get_transforms(), size=224).normalize(imagenet_stats)
 learn = cnn_learner(data2, models.resnet34)
+learner.model.load_state_dict(
+    torch.load("stage2.pth", map_location="cpu")
+)
 '''
 learn = load_learner(path)
 

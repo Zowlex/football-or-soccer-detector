@@ -7,7 +7,7 @@ This is my first machine learning app for [this classifier](https://github.com/Z
 using an ASGI framework that shines :star2: :star2: [Starlette](https://www.starlette.io/) :star2: :star2: .
 
 ### Details:
-1. After checking you model's accuracy and finetuning I saved my model stage2.pth and exported it for deployement export.pkl
+1. After checking my model's accuracy and finetuning I saved it stage2.pth and exported it for deployement export.pkl
 2. Created detect.py and tested it locally 
 ![A](https://i.imgur.com/SUDNd6n.png)
 and the result was a simple json document.

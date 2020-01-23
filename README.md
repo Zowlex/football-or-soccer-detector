@@ -1,6 +1,6 @@
 # football or soccer detector
 
-===================================>[Test here !](https://football-soccer-detector.onrender.com)<==================================
+===================================>[Test here !(unfortunately expired onrender hosted app but will fix it soon)](https://football-soccer-detector.onrender.com)<==================================
 
 This is my first machine learning app for [this classifier](https://github.com/Zowlex/fastai_coursev3_lesson1) where I got inspired from 
 [Simon Willison](https://github.com/simonw) project [cougar-or-not](https://github.com/simonw/cougar-or-not) and made my own web app
